@@ -3,5 +3,6 @@ project(leetcode_practice)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(leetcode_practice main.cpp
-        vec2_3.cpp)
+add_executable(leetcode_practice
+        vec2_3.cpp
+        stk1.cpp)
