@@ -14,7 +14,6 @@ public:
             }
         }
 
-        // 第二次遍历：找出未被标记的位置
         for (int i = 0; i < n; ++i) {
             if (nums[i] > 0) {
                 result.push_back(i + 1);
