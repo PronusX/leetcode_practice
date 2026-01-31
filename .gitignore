@@ -1,0 +1,33 @@
+# ====================== 核心：CLion专属IDE配置  ======================
+.idea/
+# ====================== CMake构建相关（CLion默认） ======================
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+# ====================== C/C++编译产物 ======================
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+# ====================== 系统/临时文件 ======================
+# Windows
+Thumbs.db
+*.tmp
+*.log
+*.bak
+# Mac（兼容跨平台）
+.DS_Store
+# Linux（兼容跨平台）
+*~
+# ====================== 其他可选：日志/备份 ======================
+*.log
+*.zip
+*.rar
